@@ -1,0 +1,50 @@
+.ic {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: #000;
+  -webkit-mask: {
+    repeat: no-repeat;
+    size: 100%;
+    position: center center;
+  }
+}
+.ic_stars {
+  -webkit-mask-image: url("../../images/icons/ic_stars.svg");
+}
+.ic_close {
+  -webkit-mask-image: url("../../images/icons/close.svg");
+}
+.ic_arrow-right {
+  -webkit-mask-image: url("../../images/icons/Frame.svg");
+}
+.ic_account {
+  -webkit-mask-image: url("../../images/icons/ic_account.svg");
+}
+.ic_cart {
+  -webkit-mask-image: url("../../images/icons/ic_cart.svg");
+}
+.ic_down {
+  -webkit-mask-image: url("../../images/icons/ic_down.svg");
+}
+.ic_filtr {
+  -webkit-mask-image: url("../../images/icons/ic_filtr.svg");
+}
+.ic_arrow-left {
+  -webkit-mask-image: url("../../images/icons/ic_left.svg");
+}
+.ic_like {
+  -webkit-mask-image: url("../../images/icons/ic_like.svg");
+}
+.ic_search {
+  -webkit-mask-image: url("../../images/icons/ic_search.svg");
+}
+.ic_trash {
+  -webkit-mask-image: url("../../images/icons/ic_trash.svg");
+}
+.ic_truck {
+  -webkit-mask-image: url("../../images/icons/ic_truck.svg");
+}
+.ic_open {
+  -webkit-mask-image: url("../../images/icons/open.svg");
+}
