@@ -33,6 +33,7 @@ $box-shadow-xd: var(--box-shadow-xd);
 // / box shadow global
 
 * {
+  margin: 0;
   list-style: none;
   text-decoration: none;
   font-family: $ft-fy-Montserrat;
@@ -46,4 +47,5 @@ h2.global-title {
   font-weight: $wt-bold;
   letter-spacing: 0.25px;
   color: $black0;
+  text-align: center;
 }

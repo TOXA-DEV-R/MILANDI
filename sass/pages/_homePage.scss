@@ -113,6 +113,7 @@ main .hero {
     height: 100%;
     background: linear-gradient(99.05deg, #e1aa00 0%, #ffc000 74.72%);
     .swiper-pagination {
+      bottom: 33px;
       span {
         width: 8px;
         height: 8px;
@@ -233,3 +234,29 @@ main .hero {
   }
 }
 /* / section-hero */
+
+/* advantages */
+main .advantages {
+  .global-title {
+    margin-top: 67px;
+  }
+  background: #e5e5e5;
+  &-item {
+    width: 294px;
+    height: 144px;
+    margin-top: 24px;
+    background: $white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p {
+      margin-top: 45px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22.4px;
+    }
+  }
+}
+/* / advantages */
