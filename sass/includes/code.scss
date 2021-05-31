@@ -37,4 +37,13 @@ $box-shadow-xd: var(--box-shadow-xd);
   text-decoration: none;
   font-family: $ft-fy-Montserrat;
   font-style: normal;
+  letter-spacing: 0.1px;
+}
+
+h2.global-title {
+  font-size: 34px;
+  line-height: 47.6px;
+  font-weight: $wt-bold;
+  letter-spacing: 0.25px;
+  color: $black0;
 }
