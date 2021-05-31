@@ -104,6 +104,9 @@ header {
 }
 /* / header */
 
+main {
+  background: #e5e5e5;
+}
 /* section-hero */
 main .hero {
   width: 100%;
@@ -240,7 +243,6 @@ main .advantages {
   .global-title {
     margin-top: 67px;
   }
-  background: #e5e5e5;
   &-item {
     width: 294px;
     height: 144px;
@@ -260,3 +262,11 @@ main .advantages {
   }
 }
 /* / advantages */
+
+/* best-products */
+main .best-products {
+  .global-title {
+    margin-top: 80px;
+  }
+}
+/* / best-products */
