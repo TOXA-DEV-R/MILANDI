@@ -19,6 +19,8 @@ html {
   --box-shadow-xd: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
     0px 18px 88px -4px rgba(24, 39, 75, 0.14);
   /* / box shadow global*/
+  --gl-height-30: 30px;
+  --gl-radius-4: 4px;
 }
 // box shadow global
 $box-shadow: var(--box-shadow);
@@ -29,3 +31,10 @@ $box-shadow-xl: var(--box-shadow-xl);
 $box-shadow-xm: var(--box-shadow-xm);
 $box-shadow-xd: var(--box-shadow-xd);
 // / box shadow global
+
+* {
+  list-style: none;
+  text-decoration: none;
+  font-family: $ft-fy-Montserrat;
+  font-style: normal;
+}

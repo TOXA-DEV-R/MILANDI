@@ -1,5 +1,83 @@
+$gl-height-30: var(--gl-height-30);
+$gl-radius-4: var(--gl-radius-4);
 header {
   .header-hat {
     background: $black-d;
+    .translate {
+      span {
+        display: inline-block;
+        margin: 13px 0;
+        font-size: 10px;
+        font-weight: $wt-bold;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: $white;
+        cursor: pointer;
+        &.active {
+          color: rgba(255, 255, 255, 0.3);
+        }
+      }
+    }
+  }
+  .navbar {
+    &-left {
+      display: flex;
+      align-items: center;
+      .logo {
+        display: block;
+        width: 100px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &-items {
+      display: flex;
+      margin-left: 98px;
+    }
+    &-item {
+      margin-right: 24px;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+    &-link {
+      display: inline-block;
+      font-size: 14px;
+      letter-spacing: 0.1px;
+      color: $black;
+      font-weight: $wt-medium;
+    }
+    &-right {
+      display: flex;
+      align-items: center;
+      .btn-exit {
+        margin-right: 15px;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: normal;
+        padding: 4px 8px;
+        background: $black-05;
+        border: none;
+        border-radius: $gl-radius-4;
+        cursor: pointer;
+      }
+      .registration {
+        margin-right: 43px;
+        font-size: 16px;
+        line-height: 22.4px;
+        font-weight: normal;
+        padding: 4px 8px;
+        background: $yellow;
+        border: none;
+        border-radius: $gl-radius-4;
+      }
+      .btn-carts {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+      }
+    }
   }
 }

@@ -1,8 +1,6 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
 }
 
 .col-auto {
@@ -10,6 +8,46 @@
   width: auto;
   max-width: 100%;
   position: relative;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-unset {
+  justify-content: unset;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-unset {
+  align-items: unset;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-unset {
+  flex-direction: unset;
+}
+
+.display-none {
+  display: none;
+}
+
+.display-flex {
+  display: flex;
 }
 
 @for $i from 1 through 12 {
