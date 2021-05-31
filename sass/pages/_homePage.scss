@@ -447,3 +447,41 @@ main .new-goods .discount {
   }
 }
 /* / discount */
+
+/* footer*/
+footer {
+  h4 {
+    margin-top: 44px;
+    margin-bottom: 16px;
+    font-weight: $wt-semi-bold;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: $black0;
+  }
+  p {
+    font-weight: $wt-regular;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 0.25px;
+    color: $black0;
+  }
+  h4 + p ~ p {
+    margin-top: 10px;
+  }
+  .logo {
+    display: block;
+    margin-top: 15px;
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: $wt-regular;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 0.25px;
+    color: $black0;
+  }
+}
+/* / footer*/
