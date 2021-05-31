@@ -318,3 +318,58 @@ main .categories {
   }
 }
 /* / categories */
+
+/* app */
+main .app {
+  height: 400px;
+  margin-top: 245px;
+  background: radial-gradient(100% 1071.07% at 0% 0%, #0f0d2b 0%, #0c0926 100%);
+  &-img {
+    width: 373px;
+    height: 400px;
+    position: relative;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      height: 521px;
+      object-fit: cover;
+      transform: translateY(-73%);
+    }
+  }
+  &-column {
+    &__title {
+      margin-top: 40px;
+      font-size: 34px;
+      line-height: 47.6px;
+      font-weight: $wt-bold;
+      letter-spacing: 0.25px;
+      color: $white;
+    }
+    &__text {
+      margin-top: 24px;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 22.4px;
+      letter-spacing: 0.44px;
+      color: $white;
+    }
+    &__links {
+      margin-top: 40px;
+      display: flex;
+      a {
+        margin-left: 31px;
+      }
+    }
+  }
+}
+/* / app */
+
+/* new-goods */
+main .new-goods {
+  .global-title {
+    margin-top: 64px;
+  }
+}
+/* / new-goods */
