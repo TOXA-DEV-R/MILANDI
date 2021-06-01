@@ -57,6 +57,9 @@
 }
 
 @media screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
   @for $i from 1 through 12 {
     .col-sm-#{$i} {
       width: #{100% / 12 * $i};
@@ -64,6 +67,9 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
   @for $i from 1 through 12 {
     .col-md-#{$i} {
       width: #{100% / 12 * $i};
@@ -71,22 +77,37 @@
   }
 }
 @media screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
   @for $i from 1 through 12 {
     .col-lg-#{$i} {
       width: #{100% / 12 * $i};
     }
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width: 1215px) {
+  .container {
+    max-width: 1140px;
+  }
   @for $i from 1 through 12 {
     .col-xl-#{$i} {
       width: #{100% / 12 * $i};
     }
   }
 }
+@media screen and (min-width: 1215px) {
+  .container {
+    max-width: 1180px;
+  }
+  @for $i from 1 through 12 {
+    .col-xm-#{$i} {
+      width: #{100% / 12 * $i};
+    }
+  }
+}
 
 .container {
-  max-width: 1180px;
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
