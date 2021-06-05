@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/base.css">
   <title>MILANDI</title>
@@ -14,14 +15,423 @@
   <!-- header -->
   <header>
     <div class="header-hat">
-      <div class="language">
-        <span>RU</span>
-        <span>UZB</span>
+      <div class="container">
+        <div class="translate">
+          <span>RU</span>
+          <span class="active">UZB</span>
+        </div>
+      </div>
+    </div>
+    <div class="navbar">
+      <div class="container">
+        <nav class="row justify-between align-center">
+
+        </nav>
       </div>
     </div>
   </header>
   <!-- / header -->
+  <!-- main -->
+  <main>
+    <!-- hero -->
+    <section class="hero">
+      <!-- Swiper -->
+      <div class="swiper-container swiper-01">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="container">
+              <div class="row align-md-unset align-center justify-center">
+                <div class="col-lg-7 col-md-7 hero-left">
+                  <h2>Быстрый и удобный шоппинг, не выходя из дома.</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Convallis lectus odio vitae, duis nec ut
+                    velit, fermentum. Diam sollicitudin arcu euismod morbi. Adipiscing bibendum elementum, fermentum
+                    amet quis erat.</p>
+                  <a href="/"><img src="./images/icons/Polygon.svg" alt="Polygon"> <span>Все товары</span> </a>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-8 hero-right">
+                  <div class="hero-right-img">
+                    <img src="./images/hero_img.png" alt="img">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- / hero -->
+    <!-- advantages -->
+    <section class="advantages">
+      <div class="container">
+        <div class="row justify-between">
+          <div class="col-12">
+            <h2 class="global-title">Наши преимущества</h2>
+          </div>
+          <div class="swiper-container swiper-02">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="advantages-item">
+                  <span><i class="ic ic_stars"></i></span>
+                  <p>Лучший сервис</p>
+                </div>
+                <div class="advantages-item">
+                  <span><i class="ic ic_truck"></i></span>
+                  <p>Экспресс доставка </p>
+                </div>
+                <div class="advantages-item">
+                  <span><i class="ic ic_like"></i></span>
+                  <p>Лучшее качество в стране</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / advantages -->
+    <!-- best-products -->
+    <section class="best-products">
+      <div class="container">
+        <div class="row justify-between">
+          <div class="col-12">
+            <h2 class="global-title">Лучшие товары</h2>
+          </div>
+          <div class="swiper-container swiper-03">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_01.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_02.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_03.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_04.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/ best-products -->
+    <!-- Categories -->
+    <section class="categories">
+      <div class="container">
+        <div class="row justify-between">
+          <div class="col-12">
+            <h2 class="global-title">
+              Категории
+            </h2>
+          </div>
+          <div class="swiper-container swiper-04">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="categories-item">
+                  <div class="categories-img">
+                    <img src="./images/categories_img_02.png" alt="img">
+                  </div>
+                  <a href="/" class="categories-link">Женская обувь</a>
+                </div>
+                <div class="categories-item">
+                  <div class="categories-img">
+                    <img src="./images/categories_img_03.png" alt="img">
+                  </div>
+                  <a href="/" class="categories-link">Женская обувь</a>
+                </div>
+                <div class="categories-item">
+                  <div class="categories-img">
+                    <img src="./images/categories_img_02.png" alt="img">
+                  </div>
+                  <a href="/" class="categories-link">Женская обувь</a>
+                </div>
+                <div class="categories-item">
+                  <div class="categories-img">
+                    <img src="./images/categories_img_03.png" alt="img">
+                  </div>
+                  <a href="/" class="categories-link">Женская обувь</a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- / Categories -->
+    <!-- app -->
+    <section class="app">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="app-img">
+              <img src="./images/app_img.png" alt="img">
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="app-column">
+              <h3 class="app-column__title">Скачай приложение и получай призы каждый день</h3>
+              <p class="app-column__text">Скачав наш приложение вы получаете возможность играть в призовые игры каждый
+                день и выигровать разного рода подарки для себя.
+                В нашем приложении призовые игры проходят аблолютно каждый день и всё это совершенно бесплатно.</p>
+              <div class="app-column__links">
+                <a href="/"><img src="./images/app_img_01.png" alt="img"></a>
+                <a href="/"><img src="./images/app_img_02.png" alt="img"></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- / app -->
+    <!-- new goods -->
+    <section class="new-goods">
+      <div class="container">
+        <div class="row justify-between">
+          <div class="col-12">
+            <h2 class="global-title">
+              Новые товары
+            </h2>
+          </div>
+          <div class="swiper-container swiper-05">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_01.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_02.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_03.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="./imgs/clothes_img_04.png" alt="">
+                  <div class="card-body">
+                    <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit sed odio sed
+                      nascetur.
+                    </p>
+                    <div class="card-price">
+                      <p>
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star.svg" alt="star">
+                        <img src="./imgs/icons/star_02.svg" alt="star">
+                        <span>3,5</span>
+                      </p>
+                      <span data-price="855">855 у.е.</span>
+                    </div>
+                    <button class="card-btn">Добавить в корзину</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row align-center">
+        <div class="new-goods-col-1">
+          <div class="new-goods__brand-img">
+            <img src="./images/new-goods__brand-img.png" alt="brand-img">
+          </div>
+        </div>
+        <div class="new-goods-col-2">
+          <div class="new-goods__column">
+            <h3 class="new-goods__title">Создай свой лук на все <br> случаи жизни в “Imperia”</h3>
+            <p class="new-goods__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam sollicitudin a
+              cursus
+              in. Vel sit donec semper magna dignissim. Amet, mi justo at metus vestibulum sollicitudin lacus. Nunc vel
+              egestas fermentum pellentesque sed vitae vel.</p>
+            <a href="/" class="new-goods__link">начать покупки</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="discount">
+        <h2 class="discount-title">Скидка <span>30%</span> на первую покупку обслютно для всех</h2>
+      </div>
+    </section>
+    <!-- / new goods -->
+
+  </main>
+  <!-- / main -->
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3">
+          <h4>про imperia</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget pretium aenean dignissim sit cursus dictumst
+            adipiscing nunc.</p>
+          <a href="" class="logo"><img src="./images/logo.svg" alt="logo"></a>
+        </div>
+        <div class="col-lg-4">
+          <h4>контакты</h4>
+          <p>+998 90 958 78 87</p>
+          <p>support@fonon.uz</p>
+          <h4>рабочее время</h4>
+          <p>По будням 9:00 to 18:00</p>
+          <p>В выходные 11:00 to 18:00</p>
+        </div>
+        <div class="col-lg-3">
+          <h4>Меню</h4>
+          <a href="/">Главная</a>
+          <a href="/">О нас</a>
+          <a href="/">Категории</a>
+          <a href="/">Сотрудничество</a>
+        </div>
+        <div class="col-lg-2">
+          <h4>категории</h4>
+          <a href="#!">Женская одежда</a>
+          <a href="#!">Мужская одежда</a>
+          <a href="#!">Детская одежда</a>
+          <a href="#!">Обувь</a>
+          <a href="#!">Сумки</a>
+          <a href="#!">Аксесуары</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- / footer -->
   <!-- script -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./js/main.js"></script>
   <!-- / script -->
 </body>
