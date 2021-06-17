@@ -1,8 +1,32 @@
-let swiper_01 = new Swiper(".swiper-01", {
+let swiper_0 = new Swiper(".swiper", {
+  direction: "vertical",
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
 });
+
+let swiper_01 = new Swiper(".swiper-01", {
+  direction: "horizontal",
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
+window.addEventListener("resize", swiperFunction);
+swiperFunction();
+function swiperFunction() {
+  let classSwiper_01 = document.querySelector(".hero .swiper-01");
+  let classSwiper = document.querySelector(".hero .swiper");
+  if (document.body.offsetWidth < 576) {
+    classSwiper_01.style.display = "none";
+    // classSwiper.style.display = "block";
+  } else {
+    classSwiper.style.display = "none";
+    classSwiper_01.style.display = "block";
+  }
+}
+
 let swiper_02 = new Swiper(".swiper-02", {});
 let swiper_03 = new Swiper(".swiper-03", {});
 let swiper_04 = new Swiper(".swiper-04", {});
